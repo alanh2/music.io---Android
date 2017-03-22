@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B5998"
+    tools:context="com.fiuba.taller2.musicio.LoginFacebook">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="314dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="180dp"
+        tools:layout_editor_absoluteX="23dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="#4267b2"
+        android:text="Iniciar sesión"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="241dp" />
+</android.support.constraint.ConstraintLayout>
